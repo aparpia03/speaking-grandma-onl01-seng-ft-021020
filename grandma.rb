@@ -14,14 +14,14 @@
 
 def speak_to_grandma(phrase)
   if phrase == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN"
+    return "I LOVE YOU TOO PUMPKIN"
   else if phrase == "Hi, Nana, how are you?"
-    puts "HUH?! SPEAK UP, SONNY!"
+    return "HUH?! SPEAK UP, SONNY!"
   else if phrase == "Hi!"
-    puts "HUH?! SPEAK UP, SONNY!"
+    return "HUH?! SPEAK UP, SONNY!"
   else if phrase == "WHAT DID YOU EAT TODAY?"
-    puts "NO, NOT SINCE 1938!"
+    return "NO, NOT SINCE 1938!"
   else phrase == "WHAT"
-    puts "NO, NOT SINCE 1938!"
+    return "NO, NOT SINCE 1938!"
   end
 end
