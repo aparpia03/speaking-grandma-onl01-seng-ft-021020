@@ -22,7 +22,11 @@ def speak_to_grandma(phrase)
   else if phrase.upcase
     return "HUH?! SPEAK UP, SONNY!"
   else if phrase.downcase
-    return 
+    return "NO, NOT SINCE 1938!"
+  else phrase.upcase
+    return "NO, NOT SINCE 1938!"
+  end
+end
 
 
 
